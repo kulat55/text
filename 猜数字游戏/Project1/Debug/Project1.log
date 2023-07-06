@@ -1,0 +1,23 @@
+﻿生成启动时间为 2023/6/21 10:04:13。
+     1>项目“C:\Users\lenovo\OneDrive\桌面\c\小游戏\猜数字游戏\Project1\Project1.vcxproj”在节点 2 上(Build 个目标)。
+     1>ClCompile:
+         D:\WPS Office\vs\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc110.pdb" /Gd /TC /analyze- /errorReport:prompt "源.c"
+         源.c
+     1>c:\users\lenovo\onedrive\桌面\c\小游戏\猜数字游戏\project1\源.c(10): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\wps office\vs\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>c:\users\lenovo\onedrive\桌面\c\小游戏\猜数字游戏\project1\源.c(13): warning C4996: 'fscanf': This function or variable may be unsafe. Consider using fscanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\wps office\vs\vc\include\stdio.h(237) : 参见“fscanf”的声明
+     1>c:\users\lenovo\onedrive\桌面\c\小游戏\猜数字游戏\project1\源.c(44): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\wps office\vs\vc\include\stdio.h(290) : 参见“scanf”的声明
+     1>c:\users\lenovo\onedrive\桌面\c\小游戏\猜数字游戏\project1\源.c(56): warning C4996: 'fopen': This function or variable may be unsafe. Consider using fopen_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\wps office\vs\vc\include\stdio.h(218) : 参见“fopen”的声明
+     1>c:\users\lenovo\onedrive\桌面\c\小游戏\猜数字游戏\project1\源.c(67): warning C4996: 'scanf': This function or variable may be unsafe. Consider using scanf_s instead. To disable deprecation, use _CRT_SECURE_NO_WARNINGS. See online help for details.
+                 d:\wps office\vs\vc\include\stdio.h(290) : 参见“scanf”的声明
+       Link:
+         D:\WPS Office\vs\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\lenovo\OneDrive\桌面\c\小游戏\猜数字游戏\Debug\Project1.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /manifest:embed /DEBUG /PDB:"C:\Users\lenovo\OneDrive\桌面\c\小游戏\猜数字游戏\Debug\Project1.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\lenovo\OneDrive\桌面\c\小游戏\猜数字游戏\Debug\Project1.lib" /MACHINE:X86 "Debug\源.obj"
+         Project1.vcxproj -> C:\Users\lenovo\OneDrive\桌面\c\小游戏\猜数字游戏\Debug\Project1.exe
+     1>已完成生成项目“C:\Users\lenovo\OneDrive\桌面\c\小游戏\猜数字游戏\Project1\Project1.vcxproj”(Build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.71
