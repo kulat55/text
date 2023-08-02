@@ -48,13 +48,25 @@ int is_left_move(char* x,char* y)
 }
 int is_is_left_move(char* str1,char* str2)//另一种方法来解决1.在str1追加一个字符串，str2判断
 {
-	strcat(str1,str1);
+	int len = strlen(str1);
+	int len1 = strlen(str2);
+	if(len != len1)return 0;
+	else {
+			strncat(str1,str1,5);//将str1复制
+			char* ret = strstr(str1,str2);//检测str2里是否含有str1
+			if(ret == NULL){return 0;
+				//TODO
+			}
+			else return 1;
+	}
+	
+	
 }
 int main()
 {
 	char s1[30] = "AABCD";
 	char s2[] = "BCDAA";
-	int ret = is_left_move(s1,s2);
+	int ret = is_is_left_move(s1,s2);
 	if(ret == 1)printf("yes\n");
 	else printf("NO\n");
 	return 0;
