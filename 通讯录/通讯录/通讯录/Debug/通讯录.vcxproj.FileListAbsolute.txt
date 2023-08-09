@@ -1,2 +1,0 @@
-C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\Debug\通讯录.exe.lastcodeanalysissucceeded
-C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\通讯录\Debug\NativeCodeAnalysis.read.1.tlog

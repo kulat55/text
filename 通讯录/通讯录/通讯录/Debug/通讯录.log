@@ -1,6 +1,0 @@
-﻿  contact.c
-  test.c
-  正在运行 C/C++ 代码分析...
-  正在生成代码...
-  通讯录.vcxproj -> C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\Debug\通讯录.exe
-C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\通讯录\test.c(20): warning C6031: 返回值被忽略: “scanf”。
