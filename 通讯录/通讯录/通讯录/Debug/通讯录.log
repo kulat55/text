@@ -1,0 +1,6 @@
+﻿  contact.c
+C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\通讯录\contact.c(24,9): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int *”
+C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\通讯录\contact.c(87,10): warning C4477: “printf”: 格式字符串“%-12s”需要类型“char *”的参数，但可变参数 4 拥有了类型“int *”
+C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\通讯录\contact.c(118,8): warning C4477: “scanf”: 格式字符串“%s”需要类型“char *”的参数，但可变参数 1 拥有了类型“int *”
+C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\通讯录\contact.c(145,10): warning C4477: “printf”: 格式字符串“%-12s”需要类型“char *”的参数，但可变参数 4 拥有了类型“int *”
+  通讯录.vcxproj -> C:\Users\lenovo\OneDrive\桌面\C语言代码练习\text\通讯录\通讯录\Debug\通讯录.exe
