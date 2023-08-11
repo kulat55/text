@@ -38,7 +38,7 @@ int main()
 		case modify:Modifycontact(&num); break;
 		case sort:Qsortcontact(&num); break;
 		case show:Printcontact(&num); break;
-		case go: Quitcoontact(&num); break;
+		case go: Filewrite(&num); Quitcoontact(&num); break;
 		default:
 			printf("ÖØÐÂÊäÈë"); break;
 		}

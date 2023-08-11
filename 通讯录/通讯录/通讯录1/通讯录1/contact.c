@@ -16,6 +16,35 @@ int Initcontact(people* pc)
 		printf("%s", strerror(errno));
 		return 1;
 	}
+	//读取函数
+	FILE* pt = fopen("test.txt", "rb");
+	if (pt == NULL)
+	{
+		perror("FileRead: ");
+	}
+	contact tep = { 0 };
+	while (fread(&tep, sizeof(contact), 1, pt))
+	{
+		if (pc->count == pc->capity)
+		{
+			contact* ptr = (contact*)realloc(pc->data, (pc->capity + 2) * sizeof(contact));
+			if (ptr == NULL)
+			{
+				printf("Addcontact: %s\n", strerror(errno));
+				printf("增容失败");
+			}
+			else
+			{
+				printf("增容成功");
+				pc->capity += 2;
+				pc->data = ptr;
+			}
+		}
+		pc->data[pc->count] = tep;
+		pc->count++;
+	}
+	fclose(pt);
+	pt = NULL;
 	return 0;
 }
 void Addcontact(people* pc)
@@ -215,4 +244,21 @@ void Quitcoontact(people* pc)
 {
 	free(pc->data);
 	pc->data = NULL;
+}
+void Filewrite(people* pc)
+{
+	FILE* pf = fopen("test.txt", "wb");
+	if (pf == NULL)
+	{
+		perror("Filewrite: ");
+		return;
+	}
+	int i = 0; 
+	/*for (i = 0; i < pc->count; i++)
+	{
+		fwrite(pc->data + i, sizeof(contact), 1, pf);
+	}*/
+	fwrite(pc->data, sizeof(contact), pc->count, pf);
+	fclose(pf);
+	pf = NULL;
 }

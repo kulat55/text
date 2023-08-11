@@ -39,3 +39,4 @@ void Modifycontact(people* pc);//修改函数
 void Qsortcontact(people* pc);//排序函数
 void Printcontact(people* pc);//打印函数
 void Quitcoontact(people* pc);//内存返回函数
+void Filewrite(people* pc);//数据保存函数
