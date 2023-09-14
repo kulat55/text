@@ -36,6 +36,7 @@ int main()
 	printf("a ^ b "); print_bits(a ^ b);
 	printf("~a = "); print_bits(~a);
 	printf("~b = "); print_bits(~b);
+	printf("a>>b = "); print_bits(a>>b);
 	system("pause");
 	return 0;
 }
